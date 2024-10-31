@@ -21,8 +21,9 @@ Feature:
       Given url urlEvolution2
       When method GET
       Then status 200
+      * def urlEvolutonChain3 = response.evolution_chain.url
 
-      Given url urlEvolutonChain
+      Given url urlEvolutonChain3
       When method GET
       Then status 200
 
